@@ -28,7 +28,7 @@ static class WpfUtils
             rtb.Render((Visual) window.Content);
 
             // Encoding the RenderBitmapTarget as a PNG file.
-            var png = new PngBitmapEncoder();
+            var png = new JpegBitmapEncoder();
             png.Frames.Add(BitmapFrame.Create(rtb));
             var stream = new MemoryStream();
             png.Save(stream);

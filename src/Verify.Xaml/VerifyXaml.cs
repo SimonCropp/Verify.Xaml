@@ -6,8 +6,8 @@ namespace Verify.Xaml
     {
         public static void Enable()
         {
-            SharedVerifySettings.RegisterFileConverter<Window>("png", WindowToImage);
-            SharedVerifySettings.RegisterFileConverter<FrameworkElement>("png", ElementToImage);
+            SharedVerifySettings.RegisterFileConverter<Window>("jpg", WindowToImage);
+            SharedVerifySettings.RegisterFileConverter<FrameworkElement>("jpg", ElementToImage);
         }
 
         static ConversionResult ElementToImage(FrameworkElement element, VerifySettings settings)

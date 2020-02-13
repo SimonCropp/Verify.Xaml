@@ -7,8 +7,9 @@
         mc:Ignorable="d"
         Height="350"
         Width="525"
-        Title="MyWindow">
- <DockPanel Name="MyPanel">
+        Title="MyWindow"
+        Background="Gray">
+ <DockPanel Name="MyPanel" Background="Gray">
         <Menu DockPanel.Dock="Top" Height="26">
             <MenuItem Header="File">
                 <MenuItem  Header="Exit" />
