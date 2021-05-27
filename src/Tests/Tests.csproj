@@ -12,7 +12,7 @@
     <PackageReference Include="Verify.Phash" Version="2.6.0" />
     <PackageReference Include="NUnit" Version="3.13.2" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
-    <PackageReference Include="Verify.NUnit" Version="11.17.0" />
+    <PackageReference Include="Verify.NUnit" Version="11.18.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.10.0" />
     <PackageReference Include="ProjectDefaults" Version="1.0.54" PrivateAssets="All" />
     <ProjectReference Include="..\Verify.Xaml\Verify.Xaml.csproj" />
