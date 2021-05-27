@@ -1,6 +1,6 @@
 ﻿<Project Sdk="MSBuild.Sdk.Extras">
   <PropertyGroup>
-    <TargetFrameworks>net48;net5-Windows</TargetFrameworks>
+    <TargetFrameworks>net48;net5-Windows;net6-Windows</TargetFrameworks>
     <UseWPF>true</UseWPF>
     <SignAssembly>false</SignAssembly>
   </PropertyGroup>
