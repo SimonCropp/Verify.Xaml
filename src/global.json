@@ -1,5 +1,10 @@
-{
+﻿{
   "msbuild-sdks": {
     "MSBuild.Sdk.Extras": "3.0.23"
+  },
+  "sdk": {
+    "version": "6.0.100-preview.4.21255.9",
+    "allowPrerelease": true,
+    "rollForward": "latestFeature"
   }
 }
