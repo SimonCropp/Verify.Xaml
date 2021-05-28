@@ -3,7 +3,7 @@
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
     <NoWarn>CS1591;CS0649;CS8632;CA1416</NoWarn>
-    <Version>2.6.0</Version>
+    <Version>2.7.0</Version>
     <AssemblyVersion>1.0.0</AssemblyVersion>
     <PackageTags>Xaml, Wpf, Verify</PackageTags>
     <Description>Extends Verify (https://github.com/VerifyTests/Verify) to allow verification of Xaml and Wpf bits.</Description>
